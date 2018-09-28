@@ -1,0 +1,36 @@
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="61.7px" height="109.9px" viewBox="0 0 61.7 109.9" style="enable-background:new 0 0 61.7 109.9;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#005874;}
+	.st1{fill:#1C819E;}
+	.st2{fill:#FFBE00;}
+</style>
+<defs>
+</defs>
+<g>
+	<g>
+		
+			<rect x="14.1" y="23.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -17.6765 28.8296)" class="st0" width="23.6" height="23.6"/>
+	</g>
+	<g>
+		
+			<rect x="14.1" y="62.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -44.8345 40.0788)" class="st0" width="23.6" height="23.6"/>
+	</g>
+	<g>
+		
+			<rect x="33.2" y="43.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -25.795 47.9652)" class="st1" width="23.6" height="23.6"/>
+	</g>
+	<g>
+		<rect x="33.2" y="4.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 1.363 36.716)" class="st1" width="23.6" height="23.6"/>
+	</g>
+	<g>
+		
+			<rect x="33.2" y="81.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -52.721 59.1183)" class="st1" width="23.6" height="23.6"/>
+	</g>
+	<g>
+		<path class="st2" d="M23.6,55.1L6.9,71.8l0,0c-9.2-9.2-9.2-24.2,0-33.4l0,0L23.6,55.1z"/>
+	</g>
+</g>
+</svg>
