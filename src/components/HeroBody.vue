@@ -4,7 +4,7 @@
       <h1 class="title is-1 has-text-centered has-text-white">
         {{ title }}
       </h1>
-      <a href="#" @click="scroll" class="button is-warning is-large animated jackInTheBox">
+      <a href="#" @click="scroll" class="button is-primary is-large animated jackInTheBox">
         {{ cta }}
       </a>
     </div>
