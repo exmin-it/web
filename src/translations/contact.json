@@ -1,0 +1,20 @@
+{
+  "es": {
+    "title": "Contacto",
+    "success": "Mensaje enviado correctamente",
+    "fail": "Error al enviar el mensaje",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "en": {
+    "title": "Contact",
+    "success": "Message sent succesfully",
+    "fail": "Error when sending the message",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  }
+}
