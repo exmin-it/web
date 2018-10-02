@@ -1,15 +1,15 @@
 {
     "es": {
-        "title": "Qué Hacemos",
+        "title": "Qué Hacemos?",
         "consulting": "Consultoría",
-        "consulting_desc": "Nuestro equipo es el encargado de guiarlo hacia el éxito en el mundo virtual, asesorándolo sobre el camino correcto para lograr su objetivo con diversas estrategias y modelos de negocio",
+        "consulting_desc": "Nuestro equipo es el encargado de guiarlo hacia el éxito en el mundo virtual, asesorándolo sobre el camino correcto para lograr su objetivo con diversas estrategias y modelos de negocio.",
         "web": "Desarrollo Web",
-        "web_desc": "Ideas pequeñas, soluciones pequeñas. Ideas grandes, soluciones grandes. Todo nuestro conocimiento puesto en la implementación de cualquier proyecto!",
+        "web_desc": "Ideas pequeñas, soluciones pequeñas. Ideas grandes, soluciones grandes. ¡Todo nuestro conocimiento puesto en la implementación de cualquier proyecto!",
         "mobile": "Apps móviles",
-        "mobile_desc": "Tu visión realizada en la palma de tu mano y desde cualquier lugar. Android y ios. Algo mas?"
+        "mobile_desc": "Tu visión realizada en la palma de tu mano y desde cualquier lugar. Android y ios. ¿Algo más?"
     },
     "en": {
-        "title": "What We Do",
+        "title": "What We Do?",
         "consulting": "Consulting",
         "consulting_desc": "Our team is in charge of guiding you towards success in the virtual world, advising you on the right path to achieve your goal with various strategies and business models",
         "web": "Web Development",
