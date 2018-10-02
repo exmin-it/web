@@ -1,6 +1,6 @@
 {
     "es": {
-        "title": "Qué Hacemos?",
+        "title": "¿Qué Hacemos?",
         "consulting": "Consultoría",
         "consulting_desc": "Nuestro equipo es el encargado de guiarlo hacia el éxito en el mundo virtual, asesorándolo sobre el camino correcto para lograr su objetivo con diversas estrategias y modelos de negocio.",
         "web": "Desarrollo Web",
@@ -11,7 +11,7 @@
     "en": {
         "title": "What We Do?",
         "consulting": "Consulting",
-        "consulting_desc": "Our team is in charge of guiding you towards success in the virtual world, advising you on the right path to achieve your goal with various strategies and business models",
+        "consulting_desc": "Our team is in charge of guiding you towards success in the virtual world, advising you on the right path to achieve your goal with various strategies and business models.",
         "web": "Web Development",
         "web_desc": "Small ideas, small solutions. Big ideas, big solutions. All our knowledge put in the implmentation of any project!",
         "mobile": "Mobile Apps",

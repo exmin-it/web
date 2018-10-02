@@ -88,15 +88,7 @@ export default {
     .box:hover {
         transform: scale(1.05);
         z-index: 5;
-    }
-    .box.consulting:hover {
-        box-shadow: -5px 10px 10px #333;
-    }
-    .box.web:hover {
         box-shadow: 0px 10px 10px #333;
-    }
-    .box.mobile:hover {
-        box-shadow: 5px 10px 10px #333;
     }
     .box:hover .icon {
         animation-name: pulse;
