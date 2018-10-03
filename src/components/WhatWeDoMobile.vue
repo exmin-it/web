@@ -1,7 +1,7 @@
 <template>
-    <section class="section is-hidden-desktop">
+    <section class="section has-background-info is-hidden-desktop">
         <div class="has-text-centered">
-            <h1 class="title is-1">{{ title }}</h1>
+            <h1 class="title is-2 has-text-white">{{ title }}</h1>
             <div class="columns">
                 <div class="column">
                     <div class="box consulting">

@@ -1,18 +1,18 @@
 <template>
     <div>
-        <what-we-do-desktop />
         <what-we-do-mobile />
+        <what-we-do-desktop />
     </div>
 </template>
 
 <script>
-import WhatWeDoDesktop from '@/components/WhatWeDoDesktop'
 import WhatWeDoMobile from '@/components/WhatWeDoMobile'
+import WhatWeDoDesktop from '@/components/WhatWeDoDesktop'
 
 export default {
   components: {
-      WhatWeDoDesktop,
-      WhatWeDoMobile
+      WhatWeDoMobile,
+      WhatWeDoDesktop
   }
 }
 </script>
