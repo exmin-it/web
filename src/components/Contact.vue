@@ -67,6 +67,7 @@ export default {
           .then((response) => {
             this.sending = false
             form.reset()
+            grechaptcha.reset()
             this.success = true
           })
           .catch(() => {
