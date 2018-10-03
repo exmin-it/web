@@ -35,6 +35,7 @@ export default {
   $navbar-item-img-max-height: 4rem;
   $family-sans-serif: 'Armata';
   $box-padding: 2rem;
+  // $section-padding: 3rem 0; 
   @import 'bulma/bulma.sass';
   @import 'bulma-carousel/dist/css/bulma-carousel.sass';
   @import './assets/scss/animations.scss';
