@@ -1,5 +1,5 @@
 <template>
-    <section class="section has-background-primary" id="contact">
+    <section class="section is-medium has-background-primary" id="contact">
         <div class="container has-text-centered">
             <h1 class="title has-text-white is-2">{{ title }}</h1>
             <div v-if="success" class="notification is-success column is-8 is-offset-2">
@@ -24,6 +24,9 @@
                         <div class="control">
                             <textarea required class="textarea" name="text" :placeholder="message"></textarea>
                         </div>
+                    </div>
+                    <div class="field">
+                      <div class="g-recaptcha" data-sitekey="6LerY3MUAAAAAPI6HX0IgCp0jgtZ-naxQjXazJTr"></div>
                     </div>
                     <div class="field">
                         <div class="control has-text-centered">
