@@ -24,6 +24,9 @@
               <img class="is-background" src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=63bdd8a1179751372dd754ef62efb41f&auto=format&fit=crop&w=1950&q=80" alt="" />
           </div>
         </div>
+         <span class="icon flecha bounce" @click="scroll">
+            <font-awesome-icon icon="angle-down" />
+        </span>
     </div>
 </template>
 
@@ -38,6 +41,11 @@ export default {
   },
   mounted () {
     this.carousels = bulmaCarousel.attach()
+  },
+  methods: {
+    scroll () {
+      this.$scrollTo('#whatWeDo')
+    }
   }
 }
 </script>
@@ -53,6 +61,17 @@ export default {
     bottom: 0;
     left: 0;
     right: 0;
+  }
+  .flecha {
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    bottom: 7%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
   }
 </style>
 

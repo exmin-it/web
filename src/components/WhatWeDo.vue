@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="whatWeDo">
         <what-we-do-mobile />
         <what-we-do-desktop />
     </div>
