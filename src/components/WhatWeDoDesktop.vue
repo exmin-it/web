@@ -189,15 +189,29 @@ export default {
             }
         }
     }
-    // @media screen and (min-width: 1216px) {
-    //     .consulting {
-    //         transform: translateY(4%);
-    //     }
-    //     .web {
-    //         transform: translateY(-9%);
-    //     }
-    //     .mobile {
-    //         transform: translateY(-15%);
-    //     }
-    // }
+    @media screen and (min-width: 1350px) {
+        .section {
+            margin-bottom: -7rem;
+        }
+        .consulting {
+            transform: translateY(4%);
+        }
+        .web {
+            transform: translateY(-9%);
+        }
+        .mobile {
+            transform: translateY(-22%);
+        }
+    }
+    @media screen and (min-width: 1760px) {
+        .section {
+            margin-bottom: -9.5rem;
+        }
+    }
+    @media screen and (max-width: 1380px) {
+        .service > .service-description > .content {
+            width: 70%;
+            padding: 3rem;
+        }
+    }
 </style>
