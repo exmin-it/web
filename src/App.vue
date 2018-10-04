@@ -35,17 +35,9 @@ export default {
   $navbar-item-img-max-height: 4rem;
   $family-sans-serif: 'Armata';
   $box-padding: 2rem;
-  // $section-padding: 3rem 0; 
   @import 'bulma/bulma.sass';
   @import 'bulma-carousel/dist/css/bulma-carousel.sass';
   @import './assets/scss/animations.scss';
-  // #app {
-  //   background-image: url('~/fondo.jpg');
-  //   background-attachment: fixed;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  //   background-position: center bottom;
-  // }
   .button:hover {
     transform: scale(1.1);
   }

@@ -1,15 +1,15 @@
 <template>
-    <section class="section is-hidden-touch">
+    <section class="section has-background-primary is-hidden-touch">
         <div class="has-text-centered">
-            <h1 class="title is-1">{{ title }}</h1>
+            <h1 class="title is-1 has-text-white">{{ title }}</h1>
             <div class="columns is-gapless service consulting">
                 <div class="column service-description">
-                    <span class="icon">
-                        <font-awesome-icon icon="users" />
-                    </span>
-                    <p class="title is-3">{{ consulting }}</p>
-                    <div class="content">
-                        <p>
+                    <div class="content left">
+                        <span class="icon">
+                            <font-awesome-icon icon="users" />
+                        </span>
+                        <p class="title is-3">{{ consulting }}</p>
+                        <p class="description">
                             {{ consultingDesc }}
                         </p>
                     </div>
@@ -29,12 +29,12 @@
                     </figure>
                 </div>
                 <div class="column service-description">
-                    <span class="icon">
-                        <font-awesome-icon icon="desktop" />
-                    </span>
-                    <p class="title is-3">{{ web }}</p>
-                    <div class="content">
-                        <p>
+                    <div class="content right">
+                        <span class="icon">
+                            <font-awesome-icon icon="desktop" />
+                        </span>
+                        <p class="title is-3">{{ web }}</p>
+                        <p class="description">
                             {{ webDesc }}
                         </p>
                     </div>
@@ -42,12 +42,12 @@
             </div>
             <div class="columns is-gapless service mobile">
                 <div class="column service-description">
-                    <span class="icon">
-                        <font-awesome-icon icon="mobile-alt" />
-                    </span>
-                    <p class="title is-3">{{ mobile }}</p>
-                    <div class="content">
-                        <p>
+                    <div class="content left">
+                        <span class="icon">
+                            <font-awesome-icon icon="mobile-alt" />
+                        </span>
+                        <p class="title is-3">{{ mobile }}</p>
+                        <p class="description">
                             {{ mobileDesc }}
                         </p>
                     </div>
@@ -98,7 +98,12 @@ export default {
 
 <style lang="scss" scoped>
     .section {
-        padding: 3rem 0 0 0;
+        padding: 0 0 0 0;
+    }
+    h1.title {
+        background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0));
+        margin: 0;
+        padding: 3rem;
     }
     .shadow {
         background-color: rgba(36, 128, 155, .3);
@@ -116,36 +121,66 @@ export default {
         font-size: 2.3rem;
         margin-bottom: 30px;
     }
-    .service-description {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        & > .content {
-            padding: 0 10rem;
-        }
-    }
     .is-gapless {
         margin: 0 !important;
+    }
+    figure {
+        transition-duration: .5s;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+    .has-background {
+        overflow: hidden;
     }
     .service {
         transition-duration: .5s;
         & img {
             transition-duration: .5s;
-            filter: grayscale(1) opacity(.8);
+            filter: grayscale(1) opacity(.5);
         }
-        & .service-description {
+        & > .service-description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            & > .content {
+                border: 3px solid white;
+                border-radius: 8px 50px;
+                width: 60%;
+                z-index: 5;
+                background-color: white;
+                padding: 5rem 5rem;
+                position: absolute;
+                transition-duration: .5s;
+                &.left {
+                    left: 5%;
+                }
+                &.right {
+                    right: 5%;
+                }
+                * {
+                    transition-duration: .5s;
+                }
+                &:hover {
+                    transform: translateY(-5%);
+                    box-shadow: 5px 7px 20px black;
+                    .title, .icon {
+                        transform: scale(1.3);
+                    }
+                    .description {
+                        transform: scale(1.05);
+                    }
+                    .icon {
+                        animation-name: pulse;
+                        animation-duration: 1s;
+                        animation-iteration-count: infinite;
+                    }
+                }
+            }
             transition-duration: .5s;
         }
         &:hover {
-            & .service-description {
-                transform: scale(1.3);
-            }
-            & .icon {
-                animation-name: pulse;
-                animation-duration: 1s;
-                animation-iteration-count: infinite;
-            }
             & img {
                 filter: grayscale(0) opacity(1);
             }
@@ -154,15 +189,15 @@ export default {
             }
         }
     }
-    @media screen and (min-width: 1216px) {
-        .consulting {
-            transform: translateY(4%);
-        }
-        .web {
-            transform: translateY(-9%);
-        }
-        .mobile {
-            transform: translateY(-15%);
-        }
-    }
+    // @media screen and (min-width: 1216px) {
+    //     .consulting {
+    //         transform: translateY(4%);
+    //     }
+    //     .web {
+    //         transform: translateY(-9%);
+    //     }
+    //     .mobile {
+    //         transform: translateY(-15%);
+    //     }
+    // }
 </style>

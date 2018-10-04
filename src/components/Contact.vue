@@ -1,5 +1,5 @@
 <template>
-    <section class="section is-medium has-background-primary" id="contact">
+    <section class="section has-background-info" id="contact">
         <div class="container has-text-centered">
             <h1 class="title has-text-white is-2">{{ title }}</h1>
             <div v-if="success" class="notification is-success column is-8 is-offset-2">
@@ -33,7 +33,7 @@
                             <button v-if="sending" class="button is-warning is-medium is-loading">
                                 Loading
                             </button>
-                            <button v-else class="button is-warning is-medium">
+                            <button v-else class="button is-warning is-large">
                                 {{ send }}
                             </button>
                         </div>

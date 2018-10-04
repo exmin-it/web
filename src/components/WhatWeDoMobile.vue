@@ -1,5 +1,5 @@
 <template>
-    <section class="section has-background-info is-hidden-desktop">
+    <section class="section has-background-primary is-hidden-desktop">
         <div class="has-text-centered">
             <h1 class="title is-2 has-text-white">{{ title }}</h1>
             <div class="columns">
